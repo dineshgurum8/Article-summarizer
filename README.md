@@ -21,21 +21,21 @@ First you must clone the project to your local machine.
 If .gitignore and/or requirements.txt aren't created, create them.
 
 After creating these files we can now Git add-commit-push using the following code in the terminal
-    git add . 
-    git commit -m "YOUR MESSAGE HERE"
-    git push -u origin main
+        git add . 
+        git commit -m "YOUR MESSAGE HERE"
+        git push -u origin main
 
 Once pushed, we now create our virtual environment by running the command:
 
-    py -m venv .venv
+        py -m venv .venv
 
 Now we will activate the virtual environment using this command:
-    .venv\Scripts\activate
+        .venv\Scripts\activate
 
 Once the virtual environment has been activated, we can install our dependencies from requirements.txt.
 Before installing, it's best to update key packages first.
-    py -m pip install --upgrade pip setuptools wheel
-    py -m pip install -r requirements.txt
+        py -m pip install --upgrade pip setuptools wheel
+        py -m pip install -r requirements.txt
 
 Lastly, we will select our VS Code Interpreter
 
